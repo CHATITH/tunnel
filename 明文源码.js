@@ -1202,7 +1202,7 @@ function 配置信息(UUID, 域名地址) {
 	const 路径 = path;
 
 	let 传输层安全 = ['tls', true];
-	const SNI = 域名地址;
+	const SNI ='cloudctrl.igamecj.com';
 	const 指纹 = 'randomized';
 
 	if (域名地址.includes('.workers.dev')) {
